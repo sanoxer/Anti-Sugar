@@ -125,8 +125,6 @@ body{
     left: 609px;
     z-index: 2;
     max-width: 350px;
-    cursor: pointer;
-    transition: 0.7s linear;
     max-height: 10px;
     padding: 150px 0px 0px 0px;
 }
