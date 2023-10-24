@@ -78,7 +78,7 @@ body{
     color: #000;
     font-weight: 400;
     position: absolute;
-    background: url(../depression 1.png) 50%/90% no-repeat;
+    background: url(../img/depression 1.png) 50%/90% no-repeat;
     top: 40px;
     left: 80px;
     z-index: 2;
@@ -99,7 +99,7 @@ body{
     color: #000;
     font-weight: 400;
     position: absolute;
-    background: url(../fat\ 1.png) 50%/90% no-repeat;
+    background: url(../img/fat 1.png) 50%/90% no-repeat;
     top: 40px;
     left: 350px;
     z-index: 2;
@@ -120,7 +120,7 @@ body{
     width: 668px;
     text-transform: uppercase;
     position: absolute;
-    background: url(../keksic.png) 0%/90% no-repeat;
+    background: url(../img/keksic.png) 0%/90% no-repeat;
     top: 40px;
     left: 609px;
     z-index: 2;
@@ -149,7 +149,7 @@ body{
     color: #000;
     font-weight: 400;
     position: absolute;
-    background: url(../diabetes\ 1.png) 50%/90% no-repeat;
+    background: url(../img/diabetes 1.png) 50%/90% no-repeat;
     top: 40px;
     left: 1020px;
     z-index: 2;
@@ -170,7 +170,7 @@ body{
     color: #000;
     font-weight: 400;
     position: absolute;
-    background: url(../pngtree-heart-disease-icon-vector-png-image_5142197-transformed\ 1.png) 50%/90% no-repeat;
+    background: url(../img/pngtree-heart-disease-icon-vector-png-image_5142197-transformed 1.png) 50%/90% no-repeat;
     top: 35px;
     left: 1300px;
     z-index: 2;
@@ -191,7 +191,7 @@ body{
     color: #000;
     font-weight: 400;
     position: absolute;
-    background: url(..dopamine\ 1.png) 30%/80% no-repeat;
+    background: url(../img/dopamine 1.png) 30%/80% no-repeat;
     bottom: -650px;
     left: 80px;
     max-width: 150px;
@@ -211,7 +211,7 @@ body{
     color: #000;
     font-weight: 400;
     position: absolute;
-    background: url(../physical-fitness-text-sport-transformed\ 1.png) 30%/60% no-repeat;
+    background: url(../img/physical-fitness-text-sport-transformed 1.png) 30%/60% no-repeat;
     bottom: -650px;
     left: 370px;
     max-width: 150px;
@@ -230,7 +230,7 @@ body{
     color: #000;
     font-weight: 400;
     position: absolute;
-    background: url(../meditation-transformed\ 1.png) 50%/80% no-repeat;
+    background: url(../img/meditation-transformed 1.png) 50%/80% no-repeat;
     bottom: -700px;
     left: 580px;
     min-width: 354px;
@@ -249,7 +249,7 @@ body{
     color: #000;
     font-weight: 400;
     position: absolute;
-    background: url(../genius\ 1.png) 100%/70% no-repeat;
+    background: url(../img/genius 1.png) 100%/70% no-repeat;
     bottom: -700px;
     left: 1020px;
     max-width: 150px;
@@ -269,7 +269,7 @@ body{
     color: #000;
     font-weight: 400;
     position: absolute;
-    background: url(../healthcare-6333192\ 1.png) 50%/70% no-repeat;
+    background: url(../img/healthcare-6333192 1.png) 50%/70% no-repeat;
     bottom: -700px;
     left: 1300px;
     max-width: 180px;
