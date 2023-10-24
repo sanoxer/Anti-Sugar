@@ -1,0 +1,284 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*:before, *:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus, :active{outline: none;}
+a:focus, a:active{outline: none;}
+nav, footer, header, aside{display: block;}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: -1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input, button, textarea{font-family: inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0; border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1, h2, h3, h4, h5, h6{font-size: inherit;font-weight: 400;}
+
+
+
+body{
+    background: url(../img/фон.png) lightgray 50%/cover  no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+.left{
+    position: fixed;
+    left: 26%;
+    bottom: 47%;
+    width: 110px;
+    height: 110px;
+}
+.right{
+    position: fixed;
+    left: 68%;
+    bottom: 47%;
+    width: 110px;
+    height: 110px;
+}
+
+.life{
+    font-family: 'Lucida Console';
+    font-size: 61.953px;
+    text-transform: uppercase;
+    text-align: center;
+    position: fixed;
+    bottom: 47%;
+    left: 37%;
+}
+.life a{
+    color: #24FF00;
+}
+
+.pain{
+    position: fixed;
+    font-family: 'Lucida Console';
+}
+
+.depress{
+    text-transform: uppercase;
+    font-size: 32px;
+    color: #000;
+    font-weight: 400;
+    position: absolute;
+    background: url(../img/depression\ 1.png) 50%/90% no-repeat;
+    top: 40px;
+    left: 80px;
+    z-index: 2;
+    max-width: 150px;
+    cursor: pointer;
+    transition: 0.5s linear;
+    max-height: 150px;
+    padding: 165px 0px 0px 10px;
+}  
+.depress:hover{
+    top: 15px;
+    color: red;
+}
+
+.fat{
+    text-transform: uppercase;
+    font-size: 32px;
+    color: #000;
+    font-weight: 400;
+    position: absolute;
+    background: url(../img/fat\ 1.png) 50%/90% no-repeat;
+    top: 40px;
+    left: 350px;
+    z-index: 2;
+    max-width: 150px;
+    cursor: pointer;
+    transition: 0.5s linear;
+    max-height: 150px;
+    padding: 165px 0px 0px 0px;
+}  
+.fat:hover{
+    top: 15px;
+    color: red;
+}
+.desert{
+    font-family: 'Lucida Console';
+    white-space: nowrap;
+    font-size: 68px;
+    width: 668px;
+    text-transform: uppercase;
+    position: absolute;
+    background: url(../img/keksic.png) 0%/90% no-repeat;
+    top: 40px;
+    left: 609px;
+    z-index: 2;
+    max-width: 350px;
+    cursor: pointer;
+    transition: 0.7s linear;
+    max-height: 10px;
+    padding: 150px 0px 0px 0px;
+}
+.sugar{
+    color: #000;
+}
+
+.no{
+    color: red;
+}
+.desert:hover{
+    top: 25px;
+}
+
+
+.diabetes{
+    text-transform: uppercase;
+    font-size: 32px;
+    width: 600px;
+    color: #000;
+    font-weight: 400;
+    position: absolute;
+    background: url(../img/diabetes\ 1.png) 50%/90% no-repeat;
+    top: 40px;
+    left: 1020px;
+    z-index: 2;
+    max-width: 150px;
+    cursor: pointer;
+    transition: 0.5s linear;
+    max-height: 150px;
+    padding: 165px 0px 0px 40px;
+}
+.diabetes:hover{
+    top: 15px;
+    color: red;
+}
+.heart{
+    text-transform: uppercase;
+    font-size: 32px;
+    width: 600px;
+    color: #000;
+    font-weight: 400;
+    position: absolute;
+    background: url(../img/pngtree-heart-disease-icon-vector-png-image_5142197-transformed\ 1.png) 50%/90% no-repeat;
+    top: 35px;
+    left: 1300px;
+    z-index: 2;
+    max-width: 150px;
+    cursor: pointer;
+    transition: 0.5s linear;
+    max-height: 150px;
+    padding: 165px 0px 0px 10px;
+}
+.heart:hover{
+    top: 10px;
+    color: red;
+}
+.dopamine{
+    text-transform: uppercase;
+    font-size: 32px;
+    width: 400px;
+    color: #000;
+    font-weight: 400;
+    position: absolute;
+    background: url(../img/dopamine\ 1.png) 30%/80% no-repeat;
+    bottom: -650px;
+    left: 80px;
+    max-width: 150px;
+    cursor: pointer;
+    transition: 0.5s linear;
+    max-height: 150px;
+    padding: 210px 15px 15px 0px;
+}
+.dopamine:hover{
+    bottom: -630px;
+    color: #24FF00;
+}
+.fhisyk{
+    text-transform: uppercase;
+    font-size: 32px;
+    width: 600px;
+    color: #000;
+    font-weight: 400;
+    position: absolute;
+    background: url(../img/physical-fitness-text-sport-transformed\ 1.png) 30%/60% no-repeat;
+    bottom: -650px;
+    left: 370px;
+    max-width: 150px;
+    cursor: pointer;
+    transition: 0.5s linear;
+    max-height: 150px;
+    padding: 220px 15px 15px 20px;
+}
+.fhisyk:hover{
+    bottom: -630px;
+    color: #24FF00;
+}
+.meditation{
+    text-transform: uppercase;
+    font-size: 48px;
+    color: #000;
+    font-weight: 400;
+    position: absolute;
+    background: url(../img/meditation-transformed\ 1.png) 50%/80% no-repeat;
+    bottom: -700px;
+    left: 580px;
+    min-width: 354px;
+    cursor: pointer;
+    transition: 0.9s linear;
+    min-height: 223px;
+    padding: 270px 0px 0px 130px;
+}
+.meditation:hover{
+    bottom: -670px;
+    color: #24FF00;
+}
+.genius{
+    text-transform: uppercase;
+    font-size: 32px;
+    color: #000;
+    font-weight: 400;
+    position: absolute;
+    background: url(../img/genius\ 1.png) 100%/70% no-repeat;
+    bottom: -700px;
+    left: 1020px;
+    max-width: 150px;
+    cursor: pointer;
+    transition: 0.5s linear;
+    max-height: 150px;
+    padding: 270px 0px 60px 0px;
+}
+.genius:hover{
+    bottom: -680px;
+    color: #24FF00;
+}
+.healthcare{
+    text-transform: uppercase;
+    font-size: 32px;
+    width: 600px;
+    color: #000;
+    font-weight: 400;
+    position: absolute;
+    background: url(../img/healthcare-6333192\ 1.png) 50%/70% no-repeat;
+    bottom: -700px;
+    left: 1300px;
+    max-width: 180px;
+    cursor: pointer;
+    transition: 0.5s linear;
+    max-height: 180px;
+    padding: 280px 40px 60px 10px;
+}
+.healthcare:hover{
+    bottom: -680px;
+    color: #24FF00;
+}
