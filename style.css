@@ -77,10 +77,10 @@ body{
     font-size: 32px;
     color: #000;
     font-weight: 400;
-    position: relative;
+    position: absolute;
     background: url(depression.png) 50%/90% no-repeat;
-    top: 20%;
-    left: 30%;
+    top: 1.2em;
+    left: 2.7em;
     z-index: 2;
     max-width: 150px;
     cursor: pointer;
