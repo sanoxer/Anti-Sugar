@@ -77,7 +77,7 @@ body{
     font-size: 32px;
     color: #000;
     font-weight: 400;
-    position: absolute;
+    position: relative;
     background: url(depression.png) 50%/90% no-repeat;
     top: 20%;
     left: 30%;
