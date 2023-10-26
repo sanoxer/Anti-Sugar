@@ -79,8 +79,8 @@ body{
     font-weight: 400;
     position: absolute;
     background: url(depression.png) 50%/90% no-repeat;
-    top: 10%;
-    left: 10%;
+    top: 15%;
+    left: 25%;
     z-index: 2;
     max-width: 150px;
     cursor: pointer;
